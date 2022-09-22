@@ -1,0 +1,99 @@
+body{
+    background-image: url(./img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(36, 28, 54);
+}
+
+
+
+.content{
+    width: 100%;
+}
+
+.imgProfile{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imgPosition{
+    width: 20%;
+    padding: 30px;
+    display: inline-block;
+    z-index: 100;
+}
+
+img{
+    border-radius:50%;
+    width: 100%;
+}
+
+.name{
+    text-align: center;
+    width: 50%;
+    text-align: left;
+    padding-left: 5%;
+    
+}
+
+.name h1{
+    display: inline-block;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.info{
+    background-color: rgba(63, 59, 100, 0.718);
+
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+    position: relative;
+    top: -4.6vw;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.contact{
+    width: 50%;
+    min-width: 225px;
+}
+
+.knowledge{
+    width: 50%;
+    min-width: 225px;
+}
+
+p{
+    font-size: 18px;
+    margin: 10px;
+    color: aliceblue;
+}
+
+b{
+    font-size: 25px;
+    color: rgb(131, 189, 255);
+}
+
+.icon{
+    font-size: 50px;
+    color: rgb(104, 145, 181);
+    padding: 15px;
+}
+
+@media screen and (max-width: 325px) {
+    .info{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .name h1{
+        font-size: 30px;
+    }
+}
